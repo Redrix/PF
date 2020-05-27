@@ -1,0 +1,101 @@
+body{
+    background-color:rgb(50, 50, 50);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Tomorrow', sans-serif;
+}
+
+.conteneur{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    border: solid 4px gray;
+    color: white;
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 30px;
+    background-color: rgb(80, 80, 80);
+    box-shadow: -10px -10px 10px black;
+    justify-content: center;
+}
+
+.titre1{
+    font-size: xx-large;
+    width: 100%;
+    text-align: center;
+}
+
+hr{
+    border-color: white;
+    width: 80%;
+    margin: auto;
+}
+
+.grosContenu1{
+    display: flex;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+}
+
+.sousTitre1{
+    width: 50%;
+    text-align: center;
+}
+
+.sousTitre1 > div{
+    padding-bottom: 10%;
+}
+
+.image{
+    width: 50%;
+    text-align: center;
+}
+
+.image > img{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+}
+
+button{
+    background: transparent;
+    border: solid 5px gray;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    width: 30%;
+    height: 20%;
+    transition-duration: 0.5s;
+}
+
+button:hover{
+    background-color: gray;
+}
+
+button:focus{
+    outline: none;
+}
+
+.Sousmenu{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: gray;
+    margin-bottom: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 40px;
+}
+
+.text{
+    width: 33%;
+    text-align: center;
+}
+
+#collapseExample{
+    width: 100%;
+}

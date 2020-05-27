@@ -1,0 +1,31 @@
+.mainContent{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: auto;
+    margin-top: 100px;
+    border: solid 6px white;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 5px 0 35px 0 black;
+}
+
+.mainContent hr{
+    width: 80%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.contentTitle{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.contentText{
+    width: 100%;
+}
+
+.contentText p{
+    border: none;
+}
